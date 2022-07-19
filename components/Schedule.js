@@ -25,7 +25,7 @@ function Item({ data }) {
             <span className={ styles.description }>{ description }</span>
             <span className={ styles.location }>{ location }</span>
             <span className={ styles.venue }>
-                <a href={ link } target="_blank">{ venue }</a>
+                <a href={ link }>{ venue }</a>
             </span>
         </li>
     );
