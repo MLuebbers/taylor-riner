@@ -1,0 +1,13 @@
+{
+  "about": "Hi this is the about section",
+  "contact": "asdfsadfasd",
+  "socials": [
+    {
+      "platform": "facebook",
+      "text": "Facebook",
+      "url": "https://www.facebook.com/ ",
+      "show": true
+    }
+  ],
+  "portrait": "content/assets/maxball.jpg"
+}
