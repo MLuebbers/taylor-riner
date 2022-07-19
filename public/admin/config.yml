@@ -19,7 +19,7 @@ collections:
         fields:
           - { label: Portrait, name: portrait, widget: image, required: false }
           - { label: About, name: about, widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link]}
-          - { label: Contact, name: contact, widget: string, required: false }  
+          - { label: Contact, name: contact, widget: string }  
           - label: "Socials"
             name: "socials"
             widget: list
@@ -59,28 +59,12 @@ collections:
             widget: list
             required: false
             fields:
-              - { label: Start, name: start, widget: datetime, required: false}
-              - { label: End, name: end, widget: datetime, required: false}
+              - { label: Start, name: start, widget: datetime }
+              - { label: End, name: end, widget: datetime }
               - { label: Description, name: description, widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link] }
-              - { label: Venue, name: venue, widget: string, required: false }
-              - { label: Location, name: location, widget: string, required: false }
-              - { label: Link, name: link, widget: string, required: false}
-      - label: "Curriculum Vitae"
-        name: "cv"
-        file: "public/content/cv.json"
-        format: json
-        fields:
-          - label: "Dates"
-            name: "dates"
-            widget: list
-            required: false
-            fields:
-              - { label: Start, name: start, widget: date, required: false}
-              - { label: End, name: end, widget: date, required: false}
-              - { label: Title, name: title, widget: string, required: false}
-              - { label: Subtitle, name: subtitle, widget: string, required: false }
-              - { label: Location, name: location, widget: string, required: false }
-              - { label: Body, name: body, widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link]}
+              - { label: Venue, name: venue, widget: string }
+              - { label: Location, name: location, widget: string }
+              - { label: Link, name: link, widget: string }
       - label: "Gallery" 
         name: "gallery"
         file: "public/content/gallery.json"
