@@ -1,13 +1,11 @@
 {
-    "entries": [
-      {
-        "type": "Education",
-        "start": "2016-10",
-        "end": "2020-06",
-        "title": "Brown University",
-        "subtitle": "BA English/Music",
-        "location": "Providence, RI",
-        "description": "dfsdffdsdf"
-      }
-    ]
-  }
+  "dates": [
+    {
+      "start": "2016-09-01T05:00:00.000Z",
+      "end": "2020-05-01T05:00:00.000Z",
+      "title": "Brown University",
+      "subtitle": "BA Music/English",
+      "location": "Providence, RI"
+    }
+  ]
+}
