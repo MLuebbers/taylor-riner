@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color:#DBC89B;
+}
+
+@font-face {
+  font-family: Bosch;
+  src: url("/fonts/Bosch.otf") format("opentype");
+}
