@@ -1,7 +1,7 @@
 import styles from '../styles/components/CV.module.css'
 
-export default function CV() {
-    const listItems = mydata.map((value, index) => {
+export default function CV({ data }) {
+    const listItems = data?.entries.map((value, index) => {
         return (
             <Item key={ index } data={ value } />
         );

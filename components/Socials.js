@@ -1,7 +1,8 @@
 import styles from '../styles/components/Socials.module.css'
 
-export default function Socials() {
-    const listItems = mydata.map((value, index) => {
+export default function Socials({ data }) {
+    const listItems = data?.map((value, index) => {
+        if(!value.show) return ;
         return (
             <Item key={ index } data={ value } />
         );
@@ -17,26 +18,11 @@ export default function Socials() {
 }
 
 function Item({ data }){
-    const { link, platform } = data;
+    const { text, url } = data;
     return (
         <li>
-            <a className={ styles.start } href={ link }>{ platform }</a>
+            <a className={ styles.start } href={ url }>{ text }</a>
         </li>
     );
 }
-
-const mydata =[
-    {
-        "link":"asdafadfaf",
-        "platform":"adsf",
-    },
-    {
-        "link":"asghjkghjkfmnnfaf",
-        "platform":"s",
-    },
-    {
-        "link":"asdafaf",
-        "platform":"adsf",
-    },
-];
 

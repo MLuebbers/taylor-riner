@@ -17,6 +17,7 @@ collections:
         file: "public/content/meta.json"
         format: json
         fields:
+          - { label: Title, name: title, widget: string}
           - { label: Portrait, name: portrait, widget: image, required: false }
           - { label: About, name: about, widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link]}
           - { label: Contact, name: contact, widget: string }  
@@ -46,7 +47,7 @@ collections:
             fields:
               - { label: Description, name: description, widget: string }
               - { label: URL, name: url, widget: string }   
-              - label: "Dates"
+              - label: "Tags"
                 name: "tags"
                 widget: text
       - label: "Schedule"

@@ -1,35 +1,15 @@
 .main {
-    color: red;
+    width: 100%;
 }
 
-.table {
-    color: blue;
+.item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 12rem 1.5fr 1fr 1.5fr;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
 }
 
-.header {
-    color: blue;
-}
-
-.row {
-    color: blue;
-}
-
-.start {
-    color: blue;
-}
-
-.end {
-    color: blue;
-}
-
-.description {
-    color: blue;
-}
-
-.location {
-    color: blue;
-}
-
-.venue {
-    color: blue;
+.venue, .location {
+    text-align: right;
 }

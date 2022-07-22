@@ -10,9 +10,11 @@ import Player from '../components/Player'
 import Portrait from '../components/Portrait'
 import Schedule from '../components/Schedule'
 
+import getJSONData from '../scripts/data/getJSONData.js'
+
 import styles from '../styles/Page.module.css'
 
-export default function Home() {
+export default function Home({ allMetadata, allScheduleData, allCVData }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -22,15 +24,30 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header></Header>
-        <Portrait></Portrait>
-        <About></About>
-        <CV></CV>
-        <Schedule></Schedule>
+        <Header data={ allMetadata }></Header>
+        {/* <Portrait data={ allMetadata.portrait } /> */}
+        <About data={ allMetadata.about } />
+        <CV data={ allCVData }></CV>
+        <Schedule data={ allScheduleData } />
         <Gallery></Gallery>
         <Player></Player>
-        <Footer></Footer>
+        <Footer data={ allMetadata } />
       </main>
     </div>
   )
 }
+
+export async function getStaticProps() {
+  const allMetadata = getJSONData("meta.json");
+  const allScheduleData = getJSONData("schedule.json");
+  const allCVData = getJSONData("cv.json");
+
+  return {
+    props: {
+      allMetadata,
+      allScheduleData,
+      allCVData,
+    },
+  }
+}
+
