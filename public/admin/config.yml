@@ -61,11 +61,36 @@ collections:
             required: false
             fields:
               - { label: Start, name: start, widget: datetime }
-              - { label: End, name: end, widget: datetime }
+              - { label: End, name: end, widget: datetime, required: false  }
               - { label: Description, name: description, widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link] }
               - { label: Venue, name: venue, widget: string }
               - { label: Location, name: location, widget: string }
-              - { label: Link, name: link, widget: string }
+              - { label: Link, name: link, widget: string, required: false }
+      - label: "CV"
+        name: "cv"
+        file: "public/content/cv.json"
+        format: json
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: list
+            required: false
+            fields:
+              - label: "Type"
+                name: "type"
+                widget: select
+                options:
+                  - { label: Education, value: "Education" }
+                  - { label: Exhibitions, value: "Exhibitions" }
+                  - { label: Writing, value: "Writing" }
+                  - { label: Credits, value: "Credits" }
+              - { label: Start, name: start, widget: date }
+              - { label: End, name: end, widget: date, required: false }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string, required: false }
+              - { label: Location, name: location, widget: string, required: false }
+              - { label: Body, name: body, widget: widget: markdown, required: false,  minimal: true, buttons: [bold, italic, link] }
+              - { label: Link, name: link, widget: string, required: false  }
       - label: "Gallery" 
         name: "gallery"
         file: "public/content/gallery.json"

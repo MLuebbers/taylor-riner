@@ -27,11 +27,12 @@ export default function Home({ allMetadata, allScheduleData, allCVData }) {
         <Header data={ allMetadata }></Header>
         {/* <Portrait data={ allMetadata.portrait } /> */}
         <About data={ allMetadata.about } />
-        <CV data={ allCVData }></CV>
         <Schedule data={ allScheduleData } />
+        <CV data={ allCVData }></CV>
         <Gallery></Gallery>
         <Player></Player>
         <Footer data={ allMetadata } />
+        <div className={ styles.sun }></div>
       </main>
     </div>
   )

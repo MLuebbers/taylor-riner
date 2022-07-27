@@ -1,0 +1,43 @@
+.main {
+    width: 50%;
+    margin: auto;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+.item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.title {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.dates {
+    text-align: right;
+    grid-row: 2;
+    grid-column: 4/9;
+}
+
+.subtitle {
+    font-style: italic;
+    grid-row: 2;
+    grid-column: 1/4;
+}
+
+.location {
+    text-align: right;
+    grid-row: 1;
+    grid-column: 4/9;
+}
+
+.body {
+    grid-row: 3;
+    grid-column: 1/9;
+}
