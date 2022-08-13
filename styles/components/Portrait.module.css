@@ -1,9 +1,16 @@
 
 
 .image {
-    width: 100px;
-    height: 100px;
-    background-color: #6DADDE;
-    border-radius: 50px;
+    position: fixed;
+    margin: auto;
+    
+    width: 50vw;
+    transform: scaleX(-1);
+    /* background-image: url('/content/assets/textures/taylor.png'); */
+    mix-blend-mode: darken;
+    opacity: 10%;
+    filter: invert(0.25) contrast(100) grayscale() blur(0px);
+    /*background-color: #6DADDE; */
+    /* border-radius: 50%; */
     
 }

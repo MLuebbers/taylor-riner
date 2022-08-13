@@ -1,4 +1,6 @@
 
 .container {
     width: 900px;
+    /* filter: invert(1) blur(1px) url("../filters.svg#svgEdgeDetect"); */
+    
 }

@@ -32,7 +32,9 @@ export default function Home({ allMetadata, allScheduleData, allCVData }) {
         <Gallery></Gallery>
         <Player></Player>
         <Footer data={ allMetadata } />
-        <div className={ styles.sun }></div>
+        {/* <div className={ styles.sun }></div> */}
+       {/* // <div className={ styles.paper }></div> */}
+        {/* <div className={ styles.scan }></div> */}
       </main>
     </div>
   )

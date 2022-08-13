@@ -3,6 +3,12 @@
     margin: auto;
 }
 
+@media only screen and (max-width: 800px) {
+    .main {
+      width: 100%;
+    }
+}
+
 .sectionHeader {
     text-align: center;
 }

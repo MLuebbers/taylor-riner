@@ -1,6 +1,13 @@
 .container {
    width: 75%;
+   min-height: 100vh;
    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+   .container {
+     width: 90%;
+   }
 }
 
 .sun {
@@ -13,4 +20,33 @@
    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,221,113,0) 50%);
    opacity: 75%;
    mix-blend-mode: lighten;
+}
+
+.flower {
+   mix-blend-mode: darken;
+   height: 150px;
+}
+
+.scan {
+   position: fixed;
+   top: 0;
+   right: 0;
+   height: 100vh;
+   width: 100vw;
+   background-image: url('/content/assets/textures/scan002.png');
+   filter: invert(0);
+   mix-blend-mode: lighten;
+   opacity: 50%;
+}
+
+.paper {
+   position: fixed;
+   top: 0;
+   right: 0;
+   height: 100vh;
+   width: 100vw;
+   background-image: url('/content/assets/textures/scan003.png');
+   mix-blend-mode: difference;
+   opacity: 10%;
+   filter: invert(1) blur(0px);
 }

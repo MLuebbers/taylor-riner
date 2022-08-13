@@ -7,10 +7,28 @@
     width: 100%;
     display: grid;
     grid-template-columns: 12rem 1.5fr 1fr 1.5fr;
+    grid-template-rows: auto auto;
     margin-bottom: 1rem;
     padding-right: 1rem;
 }
 
 .venue, .location {
     text-align: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .venue, .location {
+      grid-row: 2;
+    }
+    
+    .date, .location {
+        text-align: left;
+    }
+    .venue, .description {
+        text-align: right;
+    }
 }

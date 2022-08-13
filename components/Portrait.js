@@ -4,7 +4,7 @@ export default function Portrait({ data }) {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
-                <img className={styles.image} src="/content/assets/maxball.jpg" />
+                <img className={styles.image} src="/content/assets/textures/taylor.png" />
             </div>
         </div>
     );
