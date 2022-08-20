@@ -1,13 +1,22 @@
 {
-    "entries": [
-      {
-        "type": "Education",
-        "start": "2016-10",
-        "end": "2020-06",
-        "title": "Brown University",
-        "subtitle": "BA English/Music",
-        "location": "Providence, RI",
-        "description": "dfsdffdsdf"
-      }
-    ]
-  }
+  "dates": [
+    {
+      "start": "2016-09-01T05:00:00.000Z",
+      "end": "2020-05-01T05:00:00.000Z",
+      "title": "Brown University",
+      "subtitle": "BA Music/English",
+      "location": "Providence, RI"
+    }
+  ],
+  "entries": [
+    {
+      "start": "2019-12-14T03:46:37.657Z",
+      "end": "2019-12-14T03:46:37.673Z",
+      "type": "Exhibitions",
+      "subtitle": "Senior Capstone Project",
+      "location": "Providence, RI ",
+      "title": "\"Untitled\" for Monochord",
+      "link": "https://www.youtube.com/watch?v=BewZ5JQGL5g"
+    }
+  ]
+}
