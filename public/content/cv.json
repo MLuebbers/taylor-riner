@@ -7,5 +7,15 @@
       "subtitle": "BA Music/English",
       "location": "Providence, RI"
     }
+  ],
+  "entries": [
+    {
+      "start": "2019-12-14T03:46:37.657Z",
+      "end": "2019-12-14T03:46:37.673Z",
+      "type": "Education",
+      "subtitle": "Senior Capstone Project",
+      "location": "Providence, RI ",
+      "title": "\"Untitled\" for Monochord"
+    }
   ]
 }
