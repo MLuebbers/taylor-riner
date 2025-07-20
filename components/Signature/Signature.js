@@ -1,4 +1,4 @@
-import styles from '../styles/components/Signature.module.css'
+import styles from './Signature.module.css'
 
 export default function Signature() {
     return (

@@ -1,5 +1,5 @@
-import styles from '../styles/components/Schedule.module.css'
-import formatDateRange from '../scripts/formatDateRange';
+import styles from './Schedule.module.css'
+import formatDateRange from '../../scripts/formatDateRange';
 import { useEffect, useState } from 'react';
 
 export default function Schedule({ data }) {

@@ -1,4 +1,4 @@
-import styles from '../../styles/components/core/Box.module.css'
+import styles from './Box.module.css'
 
 export default function Box({ children }) {
     return (

@@ -1,4 +1,4 @@
-import styles from '../styles/components/Portrait.module.css'
+import styles from './Portrait.module.css'
 
 export default function Portrait({ data }) {
     return (

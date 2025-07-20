@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-import About from '../components/About'
-import CV from '../components/CV'
-import Footer from '../components/Footer'
-import Gallery from '../components/Gallery'
-import Header from '../components/Header'
-import Player from '../components/Player'
-import Schedule from '../components/Schedule'
+import About from '../components/About/About.js'
+import CV from '../components/CV/CV.js'
+import Footer from '../components/Footer/Footer.js'
+import Gallery from '../components/Gallery/Gallery.js'
+import Header from '../components/Header/Header.js'
+import Player from '../components/Player/Player.js'
+import Schedule from '../components/Schedule/Schedule.js'
 
 import getJSONData from '../scripts/data/getJSONData.js'
 

@@ -1,4 +1,4 @@
-import styles from '../styles/components/Player.module.css'
+import styles from './Player.module.css'
 
 export default function Player() {
     return (
