@@ -10,18 +10,16 @@ import Schedule from '../components/Schedule/Schedule.js'
 
 import getJSONData from '../scripts/data/getJSONData.js'
 
-import styles from '../styles/Page.module.css'
-
 export default function Home({ allMetadata, allScheduleData, allCVData }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Taylor Riner</title>
         <meta name="description" content="Taylor Riner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Header data={ allMetadata }></Header>
         <About data={ allMetadata.about } />
         <Schedule data={ allScheduleData } />
