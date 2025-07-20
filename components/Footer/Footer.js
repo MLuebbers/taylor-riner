@@ -1,7 +1,7 @@
-import Signature from '../components/Signature'
-import Socials from '../components/Socials'
+import Signature from '../Signature/Signature'
+import Socials from '../Socials/Socials'
 
-import styles from '../styles/components/Footer.module.css'
+import styles from './Footer.module.css'
 
 export default function Footer({ data }) {
     return (

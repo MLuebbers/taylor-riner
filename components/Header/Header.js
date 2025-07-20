@@ -1,5 +1,5 @@
-import styles from '../styles/components/Header.module.css'
-import Box from './core/Box.js'
+import styles from './Header.module.css'
+import Box from '../core/Box/Box.js'
 
 export default function Header({ data }) {
     return (

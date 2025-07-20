@@ -1,4 +1,4 @@
-import styles from '../styles/components/Socials.module.css'
+import styles from './Socials.module.css'
 
 export default function Socials({ data }) {
     const listItems = data?.map((value, index) => {

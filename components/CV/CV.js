@@ -1,5 +1,5 @@
-import styles from '../styles/components/CV.module.css'
-import formatDateRange from '../scripts/formatDateRange'
+import styles from './CV.module.css'
+import formatDateRange from '../../scripts/formatDateRange'
 import { useEffect, useState } from 'react';
 
 export default function CV({ data }) {
