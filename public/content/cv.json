@@ -1,14 +1,21 @@
 {
-  "dates": [
+  "entries": [
     {
       "start": "2016-09-01T05:00:00.000Z",
       "end": "2020-05-01T05:00:00.000Z",
+      "type": "Education",
       "title": "Brown University",
       "subtitle": "BA Music/English",
       "location": "Providence, RI"
-    }
-  ],
-  "entries": [
+    },
+    {
+      "start": "2024-09-01T05:00:00.000Z",
+      "end": "2025-08-01T05:00:00.000Z",
+      "type": "Education",
+      "title": "Northwestern University",
+      "subtitle": "MA Sound Arts & Industries",
+      "location": "Evanston, IL"
+    },
     {
       "start": "2019-12-14T03:46:37.657Z",
       "end": "2019-12-14T03:46:37.673Z",
