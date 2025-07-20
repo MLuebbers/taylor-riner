@@ -1,19 +1,6 @@
 {
   "about": "Taylor Jordan Riner is a sound artist, songwriter, and audio engineer based in Kansas City, KS.",
-  "contact": "asdfsadfasd",
-  "socials": [
-    {
-      "platform": "facebook",
-      "text": "Facebook",
-      "url": "https://www.facebook.com/ ",
-      "show": true
-    },
-    {
-      "platform": "instagram",
-      "text": "Instagram",
-      "url": "https://www.facebook.com/ ",
-      "show": true
-    }
-  ],
-  "portrait": "content/assets/maxball.jpg"
+  "contact": "",
+  "socials": [],
+  "portrait": ""
 }
