@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,700;1,700&family=Bebas+Neue&family=Graduate&family=Koulen&family=Mate:ital@0;1&display=swap');
-:root {
-  /* --main-bg: #c8ccce;
-  --main-text: #1e4029; */
-  --main-bg:#8C3545;
-  --main-text:#897F55;
-  --main-light:#D9C7A7;
-  --main-dark:#0D0D0D;
-  --main-alt:#95A69B;
-}
+@import url("theme.css");
 
 html,
 body {
@@ -15,9 +7,8 @@ body {
   margin: 0;
   font-family: 'Averia Libre', serif;
   letter-spacing: 0.25rem;
-  background-color: var(--main-bg);
-  color: var(--main-text);
-  /* filter: blur(0.25px); */
+  background-color: var(--color-main-bg);
+  color: var(--color-main-text);
 }
 
 textPath {
@@ -25,8 +16,7 @@ textPath {
   font-size: 1rem;
   font-weight: bold;
   font-family: "Bebas Neue", Arial, sans-serif;
-  fill: var(--main-text);
-  
+  fill: var(--color-main-text);
 }
 
 a {
@@ -42,15 +32,8 @@ ul {
   list-style-type: none;
 }
 
-h1 {
-  /* filter: blur(0.5px); */
-}
-
-
 @media only screen and (max-width: 600px) {
-  body {
-    
-  }
+
 }
 
 

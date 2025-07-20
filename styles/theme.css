@@ -1,0 +1,20 @@
+:root {
+    /* Palette */
+    --color-palette-steel:#c8c8d3;
+    --color-palette-gold:#897f55;
+    --color-palette-tan:#d9c7a7;
+    --color-palette-black:#0d0d0d;
+    --color-palette-pistachio:#95a69b;
+
+    /* Colors */
+    --color-main-bg:var(--color-palette-steel);
+    --color-main-text:var(--color-palette-gold);
+    --color-main-light:var(--color-palette-tan);
+    --color-main-dark:var(--color-palette-black);
+    --color-main-alt:var(--color-palette-pistachio);
+
+    /* Spacing */
+    --spacing-main-large:1rem;
+    --spacing-main-regular:0.5rem;
+    --spacing-main-small:0.25rem;
+}
